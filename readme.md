@@ -1,25 +1,30 @@
 # Library database
 ## TODOs
 ### Books
-[ ] id
+[x] id
 [x] title 
 [x] author (many-many)
 [x] ISBN
-[ ] publisher (one-many)
-[ ] page-count
-[ ] rating
-[ ] maturity-rating (one-many)
-[ ] category (many-many)
-[ ] status
-[ ] publish-date
-[ ] series
+[x] publisher (one-many)
+[x] page-count
+[x] rating
+[x] maturity-rating (one-many)
+[x] category (many-many)
+[x] status
+[x] publish-date
+[x] series
 [x] lang
 ### Series
 [ ] volumes
-[ ] 
+[ ] status
 ### Authors
-
+[ ] First name
+[ ] last name
+[ ] birth date
 ### Users
-
-### Penalties
-
+[x] Username
+[x] Penalties
+[x] Borrowed books
+[x] First name
+[x] Last name
+[x] Address
