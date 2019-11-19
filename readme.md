@@ -23,3 +23,10 @@
 - [x] First name
 - [x] Last name
 - [x] Address
+
+### Database
+- [ ] Create tables
+    - [ ] Users
+    - [ ] Books
+- [ ] Fill data
+- [ ] Export to MS Access's ``*.accdb`
