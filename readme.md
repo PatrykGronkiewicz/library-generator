@@ -1,6 +1,7 @@
 # Library database
 ## TODOs
-### Books
+### Models
+#### Books
 [x] id
 [x] title 
 [x] author (many-many)
@@ -14,14 +15,8 @@
 [x] publish-date
 [x] series
 [x] lang
-### Series
-[ ] volumes
-[ ] status
-### Authors
-[ ] First name
-[ ] last name
-[ ] birth date
-### Users
+
+#### Users
 [x] Username
 [x] Penalties
 [x] Borrowed books
