@@ -75,13 +75,13 @@ except (EOFError, FileNotFoundError):
                   tuple(book.title for book in books if name in book.authors))
            for i, name in enumerate(authors_names)]
     with open('authors.bin', 'wb+') as authors_file:
-        pickle.dumps(authors, authors_file)
+        pickle.dump(authors, authors_file)
 
 try:
     with open('users.bin', 'rb') as users_file:
         users = pickle.load(users_file)
 except (EOFError, FileNotFoundError):
-    users = [User(i, nick) for i, nick in rando.get_random_words(limit=20)]
+    users = [User(i, nick) for i, nick in enumerate(rando.get_random_words(limit=20))]
     with open('users.bin', 'wb+') as users_file:
         pickle.dump(users, users_file)
 
